@@ -1,0 +1,269 @@
+<data>
+<meta>
+<attributes>
+<attribute><type>Categorical</type><name>Categorical_0</name></attribute>
+<attribute><type>Categorical</type><name>Categorical_1</name></attribute>
+<attribute><type>Categorical</type><name>Categorical_2</name></attribute>
+<attribute><type>Categorical</type><name>Categorical_3</name></attribute>
+<attribute><type>Categorical</type><name>Categorical_4</name></attribute>
+<attribute><type>Categorical</type><name>Categorical_5</name></attribute>
+<attribute><type>Numerical</type><name>Numerical_1</name></attribute>
+<attribute><type>Numerical</type><name>Numerical_2</name></attribute>
+<attribute><type>Numerical</type><name>Numerical_3</name></attribute>
+<attribute><type>Numerical</type><name>Numerical_4</name></attribute>
+<attribute><type>Numerical</type><name>Numerical_5</name></attribute>
+<attribute><type>Categorical</type><name>Categorical_6</name></attribute>
+<attribute><type>Categorical</type><name>Categorical_7</name></attribute>
+<attribute><type>Numerical</type><name>Numerical_6</name></attribute>
+<attribute><type>Categorical</type><name>Categorical_8</name></attribute>
+<attribute><type>Numerical</type><name>Numerical_7</name></attribute>
+<attribute><type>Numerical</type><name>Numerical_8</name></attribute>
+</attributes>
+<hierarchy>
+<Categorical_0 name="Categorical_0">
+<![CDATA[<alfaromero></alfaromero><audi></audi><bmw></bmw><chevrolet></chevrolet><dodge></dodge><honda></honda><isuzu></isuzu><jaguar></jaguar><mazda></mazda><mercedesbenz></mercedesbenz><mercury></mercury><mitsubishi></mitsubishi><nissan></nissan><peugot></peugot><plymouth></plymouth><porsche></porsche><renault></renault><saab></saab><subaru></subaru><toyota></toyota><volkswagen></volkswagen><volvo></volvo>]]>
+</Categorical_0>
+
+<Categorical_1 name="Categorical_1">
+<![CDATA[<gas></gas><diesel></diesel>]]>
+</Categorical_1>
+
+<Categorical_2 name="Categorical_2">
+<![CDATA[<std></std><turbo></turbo>]]>
+</Categorical_2>
+
+<Categorical_3 name="Categorical_3">
+<![CDATA[<hardtop></hardtop><wagon></wagon><sedan></sedan><hatchback></hatchback><convertible></convertible>]]>
+</Categorical_3>
+
+<Categorical_4 name="Categorical_4">
+<![CDATA[<4wd></4wd><fwd></fwd><rwd></rwd>]]>
+</Categorical_4>
+
+<Categorical_5 name="Categorical_5">
+<![CDATA[<front></front><rear></rear>]]>
+</Categorical_5>
+
+<Categorical_6 name="Categorical_6">
+<![CDATA[<dohc></dohc><dohcv></dohcv><l></l><ohc></ohc><ohcf></ohcf><ohcv></ohcv><rotor></rotor>]]>
+</Categorical_6>
+
+<Categorical_7 name="Categorical_7">
+<![CDATA[<eight></eight><five></five><four></four><six></six><three></three><twelve></twelve><two></two>]]>
+</Categorical_7>
+
+<Categorical_8 name="Categorical_8">
+<![CDATA[<1bbl></1bbl><2bbl></2bbl><4bbl></4bbl><idi></idi><mfi></mfi><mpfi></mpfi><sdi></sdi><spdi></spdi>]]>
+</Categorical_8>
+
+</hierarchy>
+</meta>
+<class>T</class>
+<dataset>
+alfaromero	gas	std	convertible	rwd	front	88.6	168.8	64.1	48.8	2548	dohc	four	130	mpfi	9	21
+alfaromero	gas	std	convertible	rwd	front	88.6	168.8	64.1	48.8	2548	dohc	four	130	mpfi	9	21
+alfaromero	gas	std	hatchback	rwd	front	94.5	171.2	65.5	52.4	2823	ohcv	six	152	mpfi	9	19
+audi	gas	std	sedan	fwd	front	99.8	176.6	66.2	54.3	2337	ohc	four	109	mpfi	10	24
+audi	gas	std	sedan	4wd	front	99.4	176.6	66.4	54.3	2824	ohc	five	136	mpfi	8	18
+audi	gas	std	sedan	fwd	front	99.8	177.3	66.3	53.1	2507	ohc	five	136	mpfi	8.5	19
+audi	gas	std	sedan	fwd	front	105.8	192.7	71.4	55.7	2844	ohc	five	136	mpfi	8.5	19
+audi	gas	std	wagon	fwd	front	105.8	192.7	71.4	55.7	2954	ohc	five	136	mpfi	8.5	19
+audi	gas	turbo	sedan	fwd	front	105.8	192.7	71.4	55.9	3086	ohc	five	131	mpfi	8.3	17
+audi	gas	turbo	hatchback	4wd	front	99.5	178.2	67.9	52	3053	ohc	five	131	mpfi	7	16
+bmw	gas	std	sedan	rwd	front	101.2	176.8	64.8	54.3	2395	ohc	four	108	mpfi	8.8	23
+bmw	gas	std	sedan	rwd	front	101.2	176.8	64.8	54.3	2395	ohc	four	108	mpfi	8.8	23
+bmw	gas	std	sedan	rwd	front	101.2	176.8	64.8	54.3	2710	ohc	six	164	mpfi	9	21
+bmw	gas	std	sedan	rwd	front	101.2	176.8	64.8	54.3	2765	ohc	six	164	mpfi	9	21
+bmw	gas	std	sedan	rwd	front	103.5	189	66.9	55.7	3055	ohc	six	164	mpfi	9	20
+bmw	gas	std	sedan	rwd	front	103.5	189	66.9	55.7	3230	ohc	six	209	mpfi	8	16
+bmw	gas	std	sedan	rwd	front	103.5	193.8	67.9	53.7	3380	ohc	six	209	mpfi	8	16
+bmw	gas	std	sedan	rwd	front	110	197	70.9	56.3	3505	ohc	six	209	mpfi	8	15
+chevrolet	gas	std	hatchback	fwd	front	88.4	141.1	60.3	53.2	1488	l	three	61	2bbl	9.5	47
+chevrolet	gas	std	hatchback	fwd	front	94.5	155.9	63.6	52	1874	ohc	four	90	2bbl	9.6	38
+chevrolet	gas	std	sedan	fwd	front	94.5	158.8	63.6	52	1909	ohc	four	90	2bbl	9.6	38
+dodge	gas	std	hatchback	fwd	front	93.7	157.3	63.8	50.8	1876	ohc	four	90	2bbl	9.41	37
+dodge	gas	std	hatchback	fwd	front	93.7	157.3	63.8	50.8	1876	ohc	four	90	2bbl	9.4	31
+dodge	gas	turbo	hatchback	fwd	front	93.7	157.3	63.8	50.8	2128	ohc	four	98	mpfi	7.6	24
+dodge	gas	std	hatchback	fwd	front	93.7	157.3	63.8	50.6	1967	ohc	four	90	2bbl	9.4	31
+dodge	gas	std	sedan	fwd	front	93.7	157.3	63.8	50.6	1989	ohc	four	90	2bbl	9.4	31
+dodge	gas	std	sedan	fwd	front	93.7	157.3	63.8	50.6	1989	ohc	four	90	2bbl	9.4	31
+dodge	gas	turbo	sedan	fwd	front	93.7	157.3	63.8	50.6	2191	ohc	four	98	mpfi	7.6	24
+dodge	gas	std	wagon	fwd	front	103.3	174.6	64.6	59.8	2535	ohc	four	122	2bbl	8.5	24
+dodge	gas	turbo	hatchback	fwd	front	95.9	173.2	66.3	50.2	2811	ohc	four	156	mfi	7	19
+honda	gas	std	hatchback	fwd	front	86.6	144.6	63.9	50.8	1713	ohc	four	92	1bbl	9.6	49
+honda	gas	std	hatchback	fwd	front	86.6	144.6	63.9	50.8	1819	ohc	four	92	1bbl	9.2	31
+honda	gas	std	hatchback	fwd	front	93.7	150	64	52.6	1837	ohc	four	79	1bbl	10.1	38
+honda	gas	std	hatchback	fwd	front	93.7	150	64	52.6	1940	ohc	four	92	1bbl	9.2	30
+honda	gas	std	hatchback	fwd	front	93.7	150	64	52.6	1956	ohc	four	92	1bbl	9.2	30
+honda	gas	std	sedan	fwd	front	96.5	163.4	64	54.5	2010	ohc	four	92	1bbl	9.2	30
+honda	gas	std	wagon	fwd	front	96.5	157.1	63.9	58.3	2024	ohc	four	92	1bbl	9.2	30
+honda	gas	std	hatchback	fwd	front	96.5	167.5	65.2	53.3	2236	ohc	four	110	1bbl	9	27
+honda	gas	std	hatchback	fwd	front	96.5	167.5	65.2	53.3	2289	ohc	four	110	1bbl	9	27
+honda	gas	std	sedan	fwd	front	96.5	175.4	65.2	54.1	2304	ohc	four	110	1bbl	9	27
+honda	gas	std	sedan	fwd	front	96.5	175.4	62.5	54.1	2372	ohc	four	110	1bbl	9	27
+honda	gas	std	sedan	fwd	front	96.5	175.4	65.2	54.1	2465	ohc	four	110	mpfi	9	24
+honda	gas	std	sedan	fwd	front	96.5	169.1	66	51	2293	ohc	four	110	2bbl	9.1	25
+isuzu	gas	std	sedan	rwd	front	94.3	170.7	61.8	53.5	2337	ohc	four	111	2bbl	8.5	24
+isuzu	gas	std	sedan	fwd	front	94.5	155.9	63.6	52	1874	ohc	four	90	2bbl	9.6	38
+isuzu	gas	std	sedan	fwd	front	94.5	155.9	63.6	52	1909	ohc	four	90	2bbl	9.6	38
+isuzu	gas	std	hatchback	rwd	front	96	172.6	65.2	51.4	2734	ohc	four	119	spdi	9.2	24
+jaguar	gas	std	sedan	rwd	front	113	199.6	69.6	52.8	4066	dohc	six	258	mpfi	8.1	15
+jaguar	gas	std	sedan	rwd	front	113	199.6	69.6	52.8	4066	dohc	six	258	mpfi	8.1	15
+jaguar	gas	std	sedan	rwd	front	102	191.7	70.6	47.8	3950	ohcv	twelve	326	mpfi	11.5	13
+mazda	gas	std	hatchback	fwd	front	93.1	159.1	64.2	54.1	1890	ohc	four	91	2bbl	9	30
+mazda	gas	std	hatchback	fwd	front	93.1	159.1	64.2	54.1	1900	ohc	four	91	2bbl	9	31
+mazda	gas	std	hatchback	fwd	front	93.1	159.1	64.2	54.1	1905	ohc	four	91	2bbl	9	31
+mazda	gas	std	sedan	fwd	front	93.1	166.8	64.2	54.1	1945	ohc	four	91	2bbl	9	31
+mazda	gas	std	sedan	fwd	front	93.1	166.8	64.2	54.1	1950	ohc	four	91	2bbl	9	31
+mazda	gas	std	hatchback	rwd	front	95.3	169	65.7	49.6	2380	rotor	two	70	4bbl	9.4	17
+mazda	gas	std	hatchback	rwd	front	95.3	169	65.7	49.6	2380	rotor	two	70	4bbl	9.4	17
+mazda	gas	std	hatchback	rwd	front	95.3	169	65.7	49.6	2385	rotor	two	70	4bbl	9.4	17
+mazda	gas	std	hatchback	rwd	front	95.3	169	65.7	49.6	2500	rotor	two	80	mpfi	9.4	16
+mazda	gas	std	hatchback	fwd	front	98.8	177.8	66.5	53.7	2385	ohc	four	122	2bbl	8.6	26
+mazda	gas	std	sedan	fwd	front	98.8	177.8	66.5	55.5	2410	ohc	four	122	2bbl	8.6	26
+mazda	gas	std	hatchback	fwd	front	98.8	177.8	66.5	53.7	2385	ohc	four	122	2bbl	8.6	26
+mazda	gas	std	sedan	fwd	front	98.8	177.8	66.5	55.5	2410	ohc	four	122	2bbl	8.6	26
+mazda	diesel	std	sedan	fwd	front	98.8	177.8	66.5	55.5	2443	ohc	four	122	idi	22.7	36
+mazda	gas	std	hatchback	fwd	front	98.8	177.8	66.5	55.5	2425	ohc	four	122	2bbl	8.6	26
+mazda	gas	std	sedan	rwd	front	104.9	175	66.1	54.4	2670	ohc	four	140	mpfi	8	19
+mazda	diesel	std	sedan	rwd	front	104.9	175	66.1	54.4	2700	ohc	four	134	idi	22	31
+mercedesbenz	diesel	turbo	sedan	rwd	front	110	190.9	70.3	56.5	3515	ohc	five	183	idi	21.5	22
+mercedesbenz	diesel	turbo	wagon	rwd	front	110	190.9	70.3	58.7	3750	ohc	five	183	idi	21.5	22
+mercedesbenz	diesel	turbo	hardtop	rwd	front	106.7	187.5	70.3	54.9	3495	ohc	five	183	idi	21.5	22
+mercedesbenz	diesel	turbo	sedan	rwd	front	115.6	202.6	71.7	56.3	3770	ohc	five	183	idi	21.5	22
+mercedesbenz	gas	std	sedan	rwd	front	115.6	202.6	71.7	56.5	3740	ohcv	eight	234	mpfi	8.3	16
+mercedesbenz	gas	std	convertible	rwd	front	96.6	180.3	70.5	50.8	3685	ohcv	eight	234	mpfi	8.3	16
+mercedesbenz	gas	std	sedan	rwd	front	120.9	208.1	71.7	56.7	3900	ohcv	eight	308	mpfi	8	14
+mercedesbenz	gas	std	hardtop	rwd	front	112	199.2	72	55.4	3715	ohcv	eight	304	mpfi	8	14
+mercury	gas	turbo	hatchback	rwd	front	102.7	178.4	68	54.8	2910	ohc	four	140	mpfi	8	19
+mitsubishi	gas	std	hatchback	fwd	front	93.7	157.3	64.4	50.8	1918	ohc	four	92	2bbl	9.4	37
+mitsubishi	gas	std	hatchback	fwd	front	93.7	157.3	64.4	50.8	1944	ohc	four	92	2bbl	9.4	31
+mitsubishi	gas	std	hatchback	fwd	front	93.7	157.3	64.4	50.8	2004	ohc	four	92	2bbl	9.4	31
+mitsubishi	gas	turbo	hatchback	fwd	front	93	157.3	63.8	50.8	2145	ohc	four	98	spdi	7.6	24
+mitsubishi	gas	turbo	hatchback	fwd	front	96.3	173	65.4	49.4	2370	ohc	four	110	spdi	7.5	23
+mitsubishi	gas	std	hatchback	fwd	front	96.3	173	65.4	49.4	2328	ohc	four	122	2bbl	8.5	25
+mitsubishi	gas	turbo	hatchback	fwd	front	95.9	173.2	66.3	50.2	2833	ohc	four	156	spdi	7	19
+mitsubishi	gas	turbo	hatchback	fwd	front	95.9	173.2	66.3	50.2	2921	ohc	four	156	spdi	7	19
+mitsubishi	gas	turbo	hatchback	fwd	front	95.9	173.2	66.3	50.2	2926	ohc	four	156	spdi	7	19
+mitsubishi	gas	std	sedan	fwd	front	96.3	172.4	65.4	51.6	2365	ohc	four	122	2bbl	8.5	25
+mitsubishi	gas	std	sedan	fwd	front	96.3	172.4	65.4	51.6	2405	ohc	four	122	2bbl	8.5	25
+mitsubishi	gas	turbo	sedan	fwd	front	96.3	172.4	65.4	51.6	2403	ohc	four	110	spdi	7.5	23
+mitsubishi	gas	std	sedan	fwd	front	96.3	172.4	65.4	51.6	2403	ohc	four	110	spdi	7.5	23
+nissan	gas	std	sedan	fwd	front	94.5	165.3	63.8	54.5	1889	ohc	four	97	2bbl	9.4	31
+nissan	diesel	std	sedan	fwd	front	94.5	165.3	63.8	54.5	2017	ohc	four	103	idi	21.9	45
+nissan	gas	std	sedan	fwd	front	94.5	165.3	63.8	54.5	1918	ohc	four	97	2bbl	9.4	31
+nissan	gas	std	sedan	fwd	front	94.5	165.3	63.8	54.5	1938	ohc	four	97	2bbl	9.4	31
+nissan	gas	std	wagon	fwd	front	94.5	170.2	63.8	53.5	2024	ohc	four	97	2bbl	9.4	31
+nissan	gas	std	sedan	fwd	front	94.5	165.3	63.8	54.5	1951	ohc	four	97	2bbl	9.4	31
+nissan	gas	std	hatchback	fwd	front	94.5	165.6	63.8	53.3	2028	ohc	four	97	2bbl	9.4	31
+nissan	gas	std	sedan	fwd	front	94.5	165.3	63.8	54.5	1971	ohc	four	97	2bbl	9.4	31
+nissan	gas	std	wagon	fwd	front	94.5	170.2	63.8	53.5	2037	ohc	four	97	2bbl	9.4	31
+nissan	gas	std	hardtop	fwd	front	95.1	162.4	63.8	53.3	2008	ohc	four	97	2bbl	9.4	31
+nissan	gas	std	hatchback	fwd	front	97.2	173.4	65.2	54.7	2324	ohc	four	120	2bbl	8.5	27
+nissan	gas	std	sedan	fwd	front	97.2	173.4	65.2	54.7	2302	ohc	four	120	2bbl	8.5	27
+nissan	gas	std	sedan	fwd	front	100.4	181.7	66.5	55.1	3095	ohcv	six	181	mpfi	9	17
+nissan	gas	std	wagon	fwd	front	100.4	184.6	66.5	56.1	3296	ohcv	six	181	mpfi	9	17
+nissan	gas	std	sedan	fwd	front	100.4	184.6	66.5	55.1	3060	ohcv	six	181	mpfi	9	19
+nissan	gas	std	hatchback	rwd	front	91.3	170.7	67.9	49.7	3071	ohcv	six	181	mpfi	9	19
+nissan	gas	turbo	hatchback	rwd	front	91.3	170.7	67.9	49.7	3139	ohcv	six	181	mpfi	7.8	17
+nissan	gas	std	hatchback	rwd	front	99.2	178.5	67.9	49.7	3139	ohcv	six	181	mpfi	9	19
+peugot	gas	std	sedan	rwd	front	107.9	186.7	68.4	56.7	3020	l	four	120	mpfi	8.4	19
+peugot	diesel	turbo	sedan	rwd	front	107.9	186.7	68.4	56.7	3197	l	four	152	idi	21	28
+peugot	gas	std	wagon	rwd	front	114.2	198.9	68.4	58.7	3230	l	four	120	mpfi	8.4	19
+peugot	diesel	turbo	wagon	rwd	front	114.2	198.9	68.4	58.7	3430	l	four	152	idi	21	25
+peugot	gas	std	sedan	rwd	front	107.9	186.7	68.4	56.7	3075	l	four	120	mpfi	8.4	19
+peugot	diesel	turbo	sedan	rwd	front	107.9	186.7	68.4	56.7	3252	l	four	152	idi	21	28
+peugot	gas	std	wagon	rwd	front	114.2	198.9	68.4	56.7	3285	l	four	120	mpfi	8.4	19
+peugot	diesel	turbo	wagon	rwd	front	114.2	198.9	68.4	58.7	3485	l	four	152	idi	21	25
+peugot	gas	std	sedan	rwd	front	107.9	186.7	68.4	56.7	3075	l	four	120	mpfi	8.4	19
+peugot	diesel	turbo	sedan	rwd	front	107.9	186.7	68.4	56.7	3252	l	four	152	idi	21	28
+peugot	gas	turbo	sedan	rwd	front	108	186.7	68.3	56	3130	l	four	134	mpfi	7	18
+plymouth	gas	std	hatchback	fwd	front	93.7	157.3	63.8	50.8	1918	ohc	four	90	2bbl	9.4	37
+plymouth	gas	turbo	hatchback	fwd	front	93.7	157.3	63.8	50.8	2128	ohc	four	98	spdi	7.6	24
+plymouth	gas	std	hatchback	fwd	front	93.7	157.3	63.8	50.6	1967	ohc	four	90	2bbl	9.4	31
+plymouth	gas	std	sedan	fwd	front	93.7	167.3	63.8	50.8	1989	ohc	four	90	2bbl	9.4	31
+plymouth	gas	std	sedan	fwd	front	93.7	167.3	63.8	50.8	2191	ohc	four	98	2bbl	9.4	31
+plymouth	gas	std	wagon	fwd	front	103.3	174.6	64.6	59.8	2535	ohc	four	122	2bbl	8.5	24
+plymouth	gas	turbo	hatchback	rwd	front	95.9	173.2	66.3	50.2	2818	ohc	four	156	spdi	7	19
+porsche	gas	std	hatchback	rwd	front	94.5	168.9	68.3	50.2	2778	ohc	four	151	mpfi	9.5	19
+porsche	gas	std	hardtop	rwd	rear	89.5	168.9	65	51.6	2756	ohcf	six	194	mpfi	9.5	17
+porsche	gas	std	hardtop	rwd	rear	89.5	168.9	65	51.6	2756	ohcf	six	194	mpfi	9.5	17
+porsche	gas	std	convertible	rwd	rear	89.5	168.9	65	51.6	2800	ohcf	six	194	mpfi	9.5	17
+porsche	gas	std	hatchback	rwd	front	98.4	175.7	72.3	50.5	3366	dohcv	eight	203	mpfi	10	17
+renault	gas	std	wagon	fwd	front	96.1	181.5	66.5	55.2	2579	ohc	four	132	mpfi	8.7	23
+renault	gas	std	hatchback	fwd	front	96.1	176.8	66.6	50.5	2460	ohc	four	132	mpfi	8.7	23
+saab	gas	std	hatchback	fwd	front	99.1	186.6	66.5	56.1	2658	ohc	four	121	mpfi	9.31	21
+saab	gas	std	sedan	fwd	front	99.1	186.6	66.5	56.1	2695	ohc	four	121	mpfi	9.3	21
+saab	gas	std	hatchback	fwd	front	99.1	186.6	66.5	56.1	2707	ohc	four	121	mpfi	9.3	21
+saab	gas	std	sedan	fwd	front	99.1	186.6	66.5	56.1	2758	ohc	four	121	mpfi	9.3	21
+saab	gas	turbo	hatchback	fwd	front	99.1	186.6	66.5	56.1	2808	dohc	four	121	mpfi	9	19
+saab	gas	turbo	sedan	fwd	front	99.1	186.6	66.5	56.1	2847	dohc	four	121	mpfi	9	19
+subaru	gas	std	hatchback	fwd	front	93.7	156.9	63.4	53.7	2050	ohcf	four	97	2bbl	9	31
+subaru	gas	std	hatchback	fwd	front	93.7	157.9	63.6	53.7	2120	ohcf	four	108	2bbl	8.7	26
+subaru	gas	std	hatchback	4wd	front	93.3	157.3	63.8	55.7	2240	ohcf	four	108	2bbl	8.7	26
+subaru	gas	std	sedan	fwd	front	97.2	172	65.4	52.5	2145	ohcf	four	108	2bbl	9.5	32
+subaru	gas	std	sedan	fwd	front	97.2	172	65.4	52.5	2190	ohcf	four	108	2bbl	9.5	28
+subaru	gas	std	sedan	fwd	front	97.2	172	65.4	52.5	2340	ohcf	four	108	mpfi	9	26
+subaru	gas	std	sedan	4wd	front	97	172	65.4	54.3	2385	ohcf	four	108	2bbl	9	24
+subaru	gas	turbo	sedan	4wd	front	97	172	65.4	54.3	2510	ohcf	four	108	mpfi	7.7	24
+subaru	gas	std	wagon	fwd	front	97	173.5	65.4	53	2290	ohcf	four	108	2bbl	9	28
+subaru	gas	std	wagon	fwd	front	97	173.5	65.4	53	2455	ohcf	four	108	mpfi	9	25
+subaru	gas	std	wagon	4wd	front	96.9	173.6	65.4	54.9	2420	ohcf	four	108	2bbl	9	23
+subaru	gas	turbo	wagon	4wd	front	96.9	173.6	65.4	54.9	2650	ohcf	four	108	mpfi	7.7	23
+toyota	gas	std	hatchback	fwd	front	95.7	158.7	63.6	54.5	1985	ohc	four	92	2bbl	9	35
+toyota	gas	std	hatchback	fwd	front	95.7	158.7	63.6	54.5	2040	ohc	four	92	2bbl	9	31
+toyota	gas	std	hatchback	fwd	front	95.7	158.7	63.6	54.5	2015	ohc	four	92	2bbl	9	31
+toyota	gas	std	wagon	fwd	front	95.7	169.7	63.6	59.1	2280	ohc	four	92	2bbl	9	31
+toyota	gas	std	wagon	4wd	front	95.7	169.7	63.6	59.1	2290	ohc	four	92	2bbl	9	27
+toyota	gas	std	wagon	4wd	front	95.7	169.7	63.6	59.1	3110	ohc	four	92	2bbl	9	27
+toyota	gas	std	sedan	fwd	front	95.7	166.3	64.4	53	2081	ohc	four	98	2bbl	9	30
+toyota	gas	std	hatchback	fwd	front	95.7	166.3	64.4	52.8	2109	ohc	four	98	2bbl	9	30
+toyota	diesel	std	sedan	fwd	front	95.7	166.3	64.4	53	2275	ohc	four	110	idi	22.5	34
+toyota	diesel	std	hatchback	fwd	front	95.7	166.3	64.4	52.8	2275	ohc	four	110	idi	22.5	38
+toyota	gas	std	sedan	fwd	front	95.7	166.3	64.4	53	2094	ohc	four	98	2bbl	9	38
+toyota	gas	std	hatchback	fwd	front	95.7	166.3	64.4	52.8	2122	ohc	four	98	2bbl	9	28
+toyota	gas	std	sedan	fwd	front	95.7	166.3	64.4	52.8	2140	ohc	four	98	2bbl	9	28
+toyota	gas	std	sedan	rwd	front	94.5	168.7	64	52.6	2169	ohc	four	98	2bbl	9	29
+toyota	gas	std	hatchback	rwd	front	94.5	168.7	64	52.6	2204	ohc	four	98	2bbl	9	29
+toyota	gas	std	sedan	rwd	front	94.5	168.7	64	52.6	2265	dohc	four	98	mpfi	9.4	26
+toyota	gas	std	hatchback	rwd	front	94.5	168.7	64	52.6	2300	dohc	four	98	mpfi	9.4	26
+toyota	gas	std	hardtop	rwd	front	98.4	176.2	65.6	52	2540	ohc	four	146	mpfi	9.3	24
+toyota	gas	std	hardtop	rwd	front	98.4	176.2	65.6	52	2536	ohc	four	146	mpfi	9.3	24
+toyota	gas	std	hatchback	rwd	front	98.4	176.2	65.6	52	2551	ohc	four	146	mpfi	9.3	24
+toyota	gas	std	hardtop	rwd	front	98.4	176.2	65.6	52	2679	ohc	four	146	mpfi	9.3	24
+toyota	gas	std	hatchback	rwd	front	98.4	176.2	65.6	52	2714	ohc	four	146	mpfi	9.3	24
+toyota	gas	std	convertible	rwd	front	98.4	176.2	65.6	53	2975	ohc	four	146	mpfi	9.3	24
+toyota	gas	std	sedan	fwd	front	102.4	175.6	66.5	54.9	2326	ohc	four	122	mpfi	8.7	29
+toyota	diesel	turbo	sedan	fwd	front	102.4	175.6	66.5	54.9	2480	ohc	four	110	idi	22.5	30
+toyota	gas	std	hatchback	fwd	front	102.4	175.6	66.5	53.9	2414	ohc	four	122	mpfi	8.7	27
+toyota	gas	std	sedan	fwd	front	102.4	175.6	66.5	54.9	2414	ohc	four	122	mpfi	8.7	27
+toyota	gas	std	hatchback	fwd	front	102.4	175.6	66.5	53.9	2458	ohc	four	122	mpfi	8.7	27
+toyota	gas	std	hatchback	rwd	front	102.9	183.5	67.7	52	2976	dohc	six	171	mpfi	9.3	20
+toyota	gas	std	hatchback	rwd	front	102.9	183.5	67.7	52	3016	dohc	six	171	mpfi	9.3	19
+toyota	gas	std	sedan	rwd	front	104.5	187.8	66.5	54.1	3131	dohc	six	171	mpfi	9.2	20
+toyota	gas	std	wagon	rwd	front	104.5	187.8	66.5	54.1	3151	dohc	six	161	mpfi	9.2	19
+volkswagen	diesel	std	sedan	fwd	front	97.3	171.7	65.5	55.7	2261	ohc	four	97	idi	23	37
+volkswagen	gas	std	sedan	fwd	front	97.3	171.7	65.5	55.7	2209	ohc	four	109	mpfi	9	27
+volkswagen	diesel	std	sedan	fwd	front	97.3	171.7	65.5	55.7	2264	ohc	four	97	idi	23	37
+volkswagen	gas	std	sedan	fwd	front	97.3	171.7	65.5	55.7	2212	ohc	four	109	mpfi	9	27
+volkswagen	gas	std	sedan	fwd	front	97.3	171.7	65.5	55.7	2275	ohc	four	109	mpfi	9	27
+volkswagen	diesel	turbo	sedan	fwd	front	97.3	171.7	65.5	55.7	2319	ohc	four	97	idi	23	37
+volkswagen	gas	std	sedan	fwd	front	97.3	171.7	65.5	55.7	2300	ohc	four	109	mpfi	10	26
+volkswagen	gas	std	convertible	fwd	front	94.5	159.3	64.2	55.6	2254	ohc	four	109	mpfi	8.5	24
+volkswagen	gas	std	hatchback	fwd	front	94.5	165.7	64	51.4	2221	ohc	four	109	mpfi	8.5	24
+volkswagen	gas	std	sedan	fwd	front	100.4	180.2	66.9	55.1	2661	ohc	five	136	mpfi	8.5	19
+volkswagen	diesel	turbo	sedan	fwd	front	100.4	180.2	66.9	55.1	2579	ohc	four	97	idi	23	33
+volkswagen	gas	std	wagon	fwd	front	100.4	183.1	66.9	55.1	2563	ohc	four	109	mpfi	9	25
+volvo	gas	std	sedan	rwd	front	104.3	188.8	67.2	56.2	2912	ohc	four	141	mpfi	9.5	23
+volvo	gas	std	wagon	rwd	front	104.3	188.8	67.2	57.5	3034	ohc	four	141	mpfi	9.5	23
+volvo	gas	std	sedan	rwd	front	104.3	188.8	67.2	56.2	2935	ohc	four	141	mpfi	9.5	24
+volvo	gas	std	wagon	rwd	front	104.3	188.8	67.2	57.5	3042	ohc	four	141	mpfi	9.5	24
+volvo	gas	turbo	sedan	rwd	front	104.3	188.8	67.2	56.2	3045	ohc	four	130	mpfi	7.5	17
+volvo	gas	turbo	wagon	rwd	front	104.3	188.8	67.2	57.5	3157	ohc	four	130	mpfi	7.5	17
+volvo	gas	std	sedan	rwd	front	109.1	188.8	68.9	55.5	2952	ohc	four	141	mpfi	9.5	23
+volvo	gas	turbo	sedan	rwd	front	109.1	188.8	68.8	55.5	3049	ohc	four	141	mpfi	8.7	19
+volvo	gas	std	sedan	rwd	front	109.1	188.8	68.9	55.5	3012	ohcv	six	173	mpfi	8.8	18
+volvo	diesel	turbo	sedan	rwd	front	109.1	188.8	68.9	55.5	3217	ohc	six	145	idi	23	26
+volvo	gas	turbo	sedan	rwd	front	109.1	188.8	68.9	55.5	3062	ohc	four	141	mpfi	9.5	19
+</dataset>
+</data>                               
