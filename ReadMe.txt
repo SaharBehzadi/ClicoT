@@ -1,3 +1,7 @@
+
+Most clustering algorithms have been designed only for pure numerical or pure categorical data sets while nowadays many applications generate mixed data. It arises the question how to integrate various types of attributes so that one could efficiently group objects without loss of information. It is already well understood that a simple conversion of categorical attributes into a numerical domain is not sufficient since relationships between values such as a certain order are artificially introduced. Leveraging the natural conceptual hierarchy among categorical information, concept trees summarize the categorical attributes. In this paper we propose the algorithm ClicoT (CLustering mixed-type data Including COncept Trees) which is based on the Minimum Description Length (MDL) principle. Profiting of the conceptual hierarchies, ClicoT integrates categorical and numerical attributes by means of a MDL based objective function. The result of ClicoT is well interpretable since concept trees provide insights of categorical data. Extensive experiments on synthetic and real data set illustrate that ClicoT is noise-robust and yields well interpretable results in a short runtime.
+
+
 1- The dataset should be prepared in XML format.
 2- Real datasets are available in big_data folder in 3 subfolders "Auto MPG", "Airport", "Adult".
 3- Synthetic datasets for different experiments are available in Synthetic folder (3 subfolders, "RunTimeTest", "Noise", "Variance").
